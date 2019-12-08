@@ -18,18 +18,22 @@ span.navbar-text h2 {
 a.nav-link {
     color: #777777;
 }
-/* nav {
-    height: 86px;
-} */
+
 .navbar {
     background: #ffffff;
     border-bottom: 2px solid #dddddd;
-
+    padding: 0;
 }
-
+h2 {
+    padding: 5px;
+}
+li {
+    border-right: 1px solid #cccccc;
+}
+li:last-child {
+    border: none;
+}
 div#body {
-    width: auto;
-    /* margin-top: 20px; */
     border-top: 2px solid #777777;
     padding-top: 30px;
 }
@@ -37,6 +41,9 @@ img {
     display: inline;
     float: left;
     margin-right: 10px;
+}
+img.port {
+    margin: 30px;
 }
 section {
     margin-top: 50px;
@@ -47,6 +54,7 @@ h3 {
     font-family: "Georgia", Times, "Times New Roman", serif;
     font-weight: bold;
 }
+
 p {
     line-height: 2em;
 }
