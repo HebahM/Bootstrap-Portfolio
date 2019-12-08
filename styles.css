@@ -1,3 +1,10 @@
+body {
+    background-image: url("images/gravel.png");
+}
+div.container-sm {
+    background: #ffffff;
+    padding: 30px;
+}
 span#name {
     background: #4aaaa5;
     padding: 20px;
@@ -19,12 +26,10 @@ a.nav-link {
     border-bottom: 2px solid #dddddd;
 
 }
-body {
-    background-image: url("assets/images/gravel.png");
-}
+
 div#body {
     width: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-top: 2px solid #777777;
     padding-top: 30px;
 }
@@ -45,11 +50,15 @@ h3 {
 p {
     line-height: 2em;
 }
-footer .navbar {
-    /* text-align: center; */
-    font-size: .5em;
+
+div.card {
+    background: #666666;
     border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-footer span {
-    float: center;
+div.card p {
+    color: #cccccc;
+    font-size: .75em;
 }
