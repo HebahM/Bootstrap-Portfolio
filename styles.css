@@ -29,6 +29,7 @@ h2 {
 }
 li {
     border-right: 1px solid #cccccc;
+    line-height: 5px;
 }
 li:last-child {
     border: none;
@@ -47,6 +48,7 @@ img.port {
 }
 section {
     margin-top: 50px;
+    margin-bottom: 100px;
     width: auto;
 }
 h3 {
@@ -69,4 +71,14 @@ div.card {
 div.card p {
     color: #cccccc;
     font-size: .75em;
+}
+
+@media screen and (max-width: 768px) {
+    span#name {
+        width: 100%;
+        text-align: center;
+    }
+    ul {
+        padding: 10px;
+    }
 }
